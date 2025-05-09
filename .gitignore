@@ -1,0 +1,26 @@
+# Ignore WordPress core files (optional)
+wp-admin/
+wp-includes/
+
+# Sensitive files
+wp-config.php
+.htaccess
+*.sql
+*.log
+*.env
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Node and Composer stuff
+node_modules/
+vendor/
+
+# Backup/archive files
+*.zip
+*.tar.gz
+
+# IDE/editor folders
+.vscode/
+.idea/
